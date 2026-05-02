@@ -33,7 +33,9 @@ const weatherSearch = async (req, res) => {
                 message: 'sukses fetch data dari third party api'
             })
 
-            await client.set(cname, JSON.stringify(readableData));
+            await client.set(cname, JSON.stringify(readableData), {
+                EX: 3600
+            });
         }else {
             res.status(200).json({
                 data: JSON.parse(value),
