@@ -1,5 +1,5 @@
 🌤️ Weather API with Redis Caching
-Proyek ini adalah implementasi dari tantangan Weather API di roadmap.sh. API ini berfungsi untuk mengambil data cuaca dari pihak ketiga dan menggunakan Redis sebagai sistem caching untuk meningkatkan performa dan mengurangi beban request ke API eksternal.
+Proyek ini adalah implementasi dari tantangan Weather API di roadmap.sh -- (https://roadmap.sh/projects/weather-api-wrapper-service). API ini berfungsi untuk mengambil data cuaca dari pihak ketiga dan menggunakan Redis sebagai sistem caching untuk meningkatkan performa dan mengurangi beban request ke API eksternal.
 
 🚀 Fitur Utama
 Weather Fetching: Mengambil data cuaca real-time berdasarkan nama kota.
